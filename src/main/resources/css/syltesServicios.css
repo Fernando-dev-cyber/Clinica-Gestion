@@ -1,0 +1,51 @@
+.round-layout{
+-fx-border-radius: 50;
+-fx-border-color: #D7D7D7;
+}
+
+
+.panelesCirculares {
+    -fx-background-color: #91FA42;
+    -fx-border-color: #B9B7DC;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+    -fx-border-width: 2px;
+}
+
+
+.panelesCircularesAspersores {
+    -fx-background-color: #2DC653;
+    -fx-border-color: #B9B7DC;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+    -fx-border-width: 2px;
+}
+
+.spinner {
+    -fx-background-color: #E1F7E7;
+    -fx-border-color: #7CB9E8;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-padding: 5px;
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: #4F7942;
+}
+
+.spinner:hover {
+    -fx-background-color: #BDF8CA;
+    -fx-border-color: #7EC8E3;
+}
+
+.spinner:focused {
+    -fx-border-color: #58A1D7; /* Un azul más intenso para cuando el elemento está seleccionado */
+}
+
+.spinner-arrow-button {
+    -fx-background-color: #BCE2E8;
+    -fx-background-radius: 50%; /* Bordes circulares para las flechas */
+}
+
+.spinner-arrow-button:hover {
+    -fx-background-color: #91D6E6; /* Cambio de color al pasar el mouse por las flechas */
+}

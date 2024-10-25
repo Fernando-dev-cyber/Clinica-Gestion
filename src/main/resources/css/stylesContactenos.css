@@ -1,0 +1,48 @@
+/* Estilo general del formulario */
+.formulario-contacto {
+
+    -fx-padding: 20; /* Espaciado interno */
+}
+
+/* Título del formulario */
+.label-titulo {
+    -fx-font-size: 24px;
+    -fx-font-family: 'Arial'; /* Tipo de letra */
+    -fx-text-fill: #333333; /* Color del texto */
+    -fx-padding: 10;
+}
+
+/* Estilo de los TextFields */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: linear-gradient(to right, #696744 0%, #be95be 100%);
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-pref-height: 40;
+    -fx-pref-width: 300;
+}
+
+/* Estilo del TextArea */
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: linear-gradient(to right, #696744 0%, #be95be 100%); /* Color del borde */
+    -fx-border-radius: 5; /* Bordes redondeados */
+    -fx-padding: 10;
+}
+
+/* Estilo del Enviar */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white; /* Color del texto */
+    -fx-border-radius: 5; /* Bordes redondeados */
+    -fx-padding: 10 20;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Color verde más oscuro al pasar el mouse */
+}
+
+
+
+
+

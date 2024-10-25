@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #FFAFBD, #ffc3a0, #2193b0, #6dd5ed);
+}
+
+
+.login-panel {
+    -fx-background-color: #f0f0f5; /* Color claro de fondo */
+    -fx-background-radius: 20; /* Bordes redondeados */
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 4); /* Sombra */
+    -fx-max-width: 376;
+}
+
+
+.button-login {
+    -fx-background-color: #3b5998; /* Color del botón */
+    -fx-text-fill: white; /* Color del texto */
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+    -fx-background-radius: 10;
+    -fx-cursor: hand; /* Cambia el cursor al pasar el mouse */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 2); /* Sombra suave */
+}
+
+.button-login:hover {
+    -fx-background-color: #314e7a; /* Color del botón al pasar el mouse */
+}
+
+
+.text-field, .password-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #7f8c8d; /* Color del texto de sugerencia */
+}
+
+.check-box {
+    -fx-font-size: 12px;
+    -fx-text-fill: blue;
+}

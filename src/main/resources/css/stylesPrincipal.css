@@ -1,0 +1,41 @@
+
+
+/* Estilo para los paneles */
+.panel {
+    -fx-background-color: #f0f4f8;
+    -fx-border-color: #d1d9e6;
+    -fx-border-width: 0px;
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 4); /* Sombra */
+}
+
+/* Estilo para los paneles destacados */
+.panel-highlight {
+    -fx-background-color: #e1f5fe;
+    -fx-border-color: #90caf9;
+    -fx-border-width: 0px;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 4); /* Sombra */
+}
+
+/* Estilo para los textos */
+.label {
+    /*-fx-text-fill: blue; /* Color del texto */
+    /*-fx-font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #1976d2; /* Color de fondo al pasar el mouse */
+}
+
+

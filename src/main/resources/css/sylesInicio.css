@@ -1,0 +1,42 @@
+.paneStyle {
+     -fx-background: linear-gradient(from 0% 0% to 100% 100%, rgba(100,89,130,1), rgba(6,255,252,1));
+ }
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #FFAFBD, #ffc3a0, #2193b0, #6dd5ed);
+}
+
+.tarjeta {
+    -fx-background-color: #007A5E; /* Color de fondo original */
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+.tarjeta:hover {
+    -fx-background-color: #009B77; /* Color de fondo al pasar el mouse */
+}
+
+
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #1976d2; /* Color de fondo al pasar el mouse */
+}
+
+
+.circular-image {
+    -fx-border-color: black;
+    -fx-border-width: 6;
+    -fx-border-radius: 50;
+}
+

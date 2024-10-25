@@ -1,0 +1,34 @@
+/* styles.css */
+.tarjeta-paciente {
+    -fx-padding: 10;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #bdbdbd;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-spacing: 15;
+}
+
+/* Cambiar color al pasar el mouse */
+.tarjeta-paciente:hover {
+    -fx-background-color: #b3e5fc; /* Azul claro */
+}
+
+/* Estilo para la tarjeta seleccionada */
+.tarjeta-seleccionada {
+    -fx-background-color: #64b5f6; /* Azul más pronunciado */
+}
+
+.label-nombre {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.label-dni, .label-altura-peso {
+    -fx-font-size: 12px;
+    -fx-text-fill: #333;
+}
+
+.label-codigo {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
