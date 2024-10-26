@@ -13,4 +13,10 @@ public class PacienteCodigo {
     public static Paciente buscarPacientePorCodigo(String codigo) {
         return pacientes.get(codigo);
     }
+
+    public static void removerPaciente(String codigo) {
+        pacientes.remove(codigo);
+    }
+
+
 }
