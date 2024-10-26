@@ -32,7 +32,7 @@ public class Inicio {
 
 
     public void initialize() {
-        // Configura el evento de clic en el botón citas
+        // Configuracion de los eventos para los botones
         citas.setOnAction(event -> handleCitasClick());
         clientes.setOnAction(event -> handleClientesClick());
         receta.setOnAction(event -> handleRecetaClick());
