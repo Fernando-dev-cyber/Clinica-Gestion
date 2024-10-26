@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Receta {
+public class Documentos {
 
     @FXML
     private Button volver;
