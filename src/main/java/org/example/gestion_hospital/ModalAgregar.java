@@ -38,7 +38,7 @@ public class ModalAgregar {
         TextField alturaField = new TextField();
         TextField pesoField = new TextField();
 
-        // Si estamos editando, cargar los datos del paciente
+        // En caso de editar, cargar los datos del paciente
         if (paciente != null) {
             nombreField.setText(paciente.getNombre());
             dniField.setText(paciente.getDni());
