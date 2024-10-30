@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Circle?>
 
-<AnchorPane prefHeight="492.0" prefWidth="713.0" stylesheets="@../../../css/stylesLogin.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestion_hospital.Login4Controller">
+<AnchorPane prefHeight="492.0" prefWidth="713.0" stylesheets="@../../../css/stylesLogin.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestion_hospital.Login">
    <children>
       <Pane layoutX="175.0" layoutY="84.0" maxWidth="492.0" prefHeight="292.0" prefWidth="376.0" styleClass="login-panel" stylesheets="@../../../css/stylesLogin.css">
          <children>

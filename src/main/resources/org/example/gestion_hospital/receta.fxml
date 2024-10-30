@@ -4,7 +4,7 @@
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="604.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestion_hospital.Receta">
+<AnchorPane prefHeight="604.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestion_hospital.Documentos">
    <children>
       <Separator layoutX="14.0" layoutY="82.0" prefHeight="3.0" prefWidth="541.0" />
       <Separator layoutX="14.0" layoutY="237.0" prefHeight="3.0" prefWidth="541.0" />
